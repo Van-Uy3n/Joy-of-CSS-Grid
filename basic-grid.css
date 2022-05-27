@@ -4,3 +4,11 @@
 
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
+body {
+    background-color: #180203; 
+    color: #fbd0d1;
+}
+.card {
+    background-color: #f96c7f;
+    color: #000000;
+}
