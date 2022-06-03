@@ -6,7 +6,20 @@
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     grid-auto-rows: 240px; 
 }
-@media screen and (min0width: 600px) {
+body {
+    background-color: #1a1a19;
+    color: #c1c2be; 
+}
+a:link {
+    color: #9BB8BB;
+} 
+a:visited {
+    color: #C5DEAB; 
+}
+a:hover {
+    color: #a0cd77; 
+}
+@media screen and (min-width: 700px) {
     .card-tall {
         grid-row: span 2 / auto;
     }
